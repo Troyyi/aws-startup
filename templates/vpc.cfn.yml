@@ -324,7 +324,7 @@ Resources:
         IpProtocol: tcp
         ToPort: 5432
         FromPort: 5432
-      Tags:
+      Tags: 
       - Key: Name
         Value: !Sub "${AWS::StackName}-DbSecurityGroup"
 
